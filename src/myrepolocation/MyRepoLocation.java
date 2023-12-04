@@ -19,5 +19,11 @@ public class MyRepoLocation {
         System.out.println("Hello World");
         System.out.println("Hello Class");
         
+        Book book1 = new Book("HTML & CSS", "Jon Duckett", 2011 , "Computing");
+        book1.search("John Wiley & Sons Inc");
+        
+        Book book2 = new Book("Atomic Habits", "James Clear", 2018 , "Self-help");
+        book2.search("‎Random House Business Books");
+        
     }  
 }

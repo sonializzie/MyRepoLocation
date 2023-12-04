@@ -15,10 +15,29 @@ public class Book {
     int year;
     String type;
     
-    public void search(String publisher) {
-        System.out.println("The " + name + " " + author + " is published at " + publisher);
-        System.out.printf(String.format("The %s written by %s is located at %f shop ", name, author, publisher));
+    
+     public Book() {
+        name = "HTML & CSS";
+        author = "Jon Duckett";
+        year = 2011;
+        type = "Computing";
         
     }
     
+
+    public Book(String name, String author, int year, String type) {
+        this.name = name;
+        this.author = author;
+        this.year = year;
+        this.type = type;
+    }
+     
+    
+    public void search(String publisher) {
+        System.out.println("The " + name + " " + author + " is published at " + publisher);   
+    }
+    
+    public void drive(double publisher) {
+        System.out.printf(String.format("The %s written by %s is located at %f shop ", name, author, publisher));
+    }
 }
