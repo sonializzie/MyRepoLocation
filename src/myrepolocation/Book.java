@@ -15,7 +15,7 @@ public class Book {
     int year;
     String type;
     
-    public void drive(String publisher) {
+    public void search(String publisher) {
         System.out.println("The " + name + " " + author + " is published at " + publisher);
     }
     
