@@ -10,4 +10,13 @@ package myrepolocation;
  */
 public class Book {
     
+    String name;
+    String author;
+    int year;
+    String type;
+    
+    public void drive(String publisher) {
+        System.out.println("The " + name + " " + author + " is published at " + publisher);
+    }
+    
 }
