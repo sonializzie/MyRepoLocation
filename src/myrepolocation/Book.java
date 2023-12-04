@@ -17,6 +17,8 @@ public class Book {
     
     public void search(String publisher) {
         System.out.println("The " + name + " " + author + " is published at " + publisher);
+        System.out.printf(String.format("The %s written by %s is located at %f shop ", name, author, publisher));
+        
     }
     
 }
